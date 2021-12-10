@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="body-content">
+
+        <div class="body-content-form">
+            <div class="contener">
+                <h1>Formulaire</h1>
+
+                <div class="forms">
+                    <form>
+                        <label for="search" class="searchlabel">Choose type of propriété :</label>
+                        <input class="width" type="search" name="search" id="search" placeholder="search">
+
+                        <div class="type-propriete">
+                            <label for="type-proprietes">Choose type of propriété :</label>
+
+                            <select name="type-propriete" id="type-proprietes">
+                              <option class="disabled-selected-hidden" value="disabled selected hidden" >type proprietes</option>
+                              <option class="option" value="souplex">souplex</option>
+                              <option class="option" value="duplex">duplex</option>
+                              <option class="option" value="triplex">triplex</option>
+                              <option class="option" value="studio">studio</option>
+                            </select>
+
+                        </div>
+                        
+
+                        <div class="chok-chanbres">
+                            
+                            <p>Please select number of rooms :</p>
+                              <label for="chanbre2"> 2 rooms</label>
+                              <input type="radio" id="chanbre2" name="fav_language" value="2">
+                              <label for="chanbre4"> 4 rooms</label>
+                              <input type="radio" id="chanbre4" name="fav_language" value="4">
+                              <label for="chanbre6"> 6 rooms</label>
+                              <input type="radio" id="chanbre6" name="fav_language" value="6">
+
+                        </div>
+
+
+                        <div class="chok-prex">
+                            
+                            <p>Please select your age :</p>
+                              <label for="prix2"> 10 - 30</label>
+                              <input type="radio" id="prix2" name="fav_prix" value="2">
+                              <label for="prix4"> 30 - 75</label>
+                              <input type="radio" id="prix4" name="fav_prix" value="4">
+                              <label for="prix6">+ 100</label>
+                              <input type="radio" id="prix6" name="fav_prix" value="6">
+
+                        </div>
+
+                        <div class="input-cheks">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <label for="checkbox">inclure les propriétés vendues</label>
+                        </div>
+
+                        <button class="search" >search</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
